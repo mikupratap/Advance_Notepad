@@ -8,7 +8,7 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
-import {} from "react-router-dom";
+import { } from "react-router-dom";
 import { logout } from "../actions/userActions";
 
 function Header({ setSearch }) {
@@ -21,12 +21,12 @@ function Header({ setSearch }) {
     dispatch(logout());
   };
 
-  useEffect(() => {}, [userInfo]);
+  useEffect(() => { }, [userInfo]);
 
   return (
     <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
       <Container>
-        <Navbar.Brand href="/">Note Zipper</Navbar.Brand>
+        <Navbar.Brand href="/">Advanced Notepad</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
